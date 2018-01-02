@@ -41,7 +41,7 @@ C_DEPS += \
 myAvrlib/%.o: ../myAvrlib/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: AVR Compiler'
-	avr-gcc -I"C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include" -I"C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\WBRD200-VER1\src\config" -I"C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\BoardSupport\inc" -I"C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\config" -I"C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

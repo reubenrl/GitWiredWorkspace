@@ -1,0 +1,492 @@
+12:09:36 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+C:\WinAVR-20100110\bin\avrdude -pm644p -u -Uflash:w:WirelessDataLogger.hex:a -Ulfuse:w:0xef:m -Uhfuse:w:0xdf:m -Uefuse:w:0xff:m
+
+avrdude: no programmer has been specified on the command line or the config file
+         Specify a programmer using the -c option and try again
+
+make: *** [avrdudedummy] Error 1
+15:02:18 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+C:\WinAVR-20100110\bin\avrdude -pm644p -u -Uflash:w:WirelessDataLogger.hex:a -Ulfuse:w:0xef:m -Uhfuse:w:0xdf:m -Uefuse:w:0xff:m
+
+avrdude: no programmer has been specified on the command line or the config file
+         Specify a programmer using the -c option and try again
+
+make: *** [avrdudedummy] Error 1
+15:09:03 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+C:\WinAVR-20100110\bin\avrdude -pm644p -u -Uflash:w:WirelessDataLogger.hex:a -Ulfuse:w:0xef:m -Uhfuse:w:0xdf:m -Uefuse:w:0xff:m
+
+avrdude: no programmer has been specified on the command line or the config file
+         Specify a programmer using the -c option and try again
+
+make: *** [avrdudedummy] Error 1
+15:12:48 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+C:\WinAVR-20100110\bin\avrdude -pm644p -u -Uflash:w:WirelessDataLogger.hex:a -Ulfuse:w:0xef:m -Uhfuse:w:0xdf:m -Uefuse:w:0xff:m
+
+avrdude: no programmer has been specified on the command line or the config file
+         Specify a programmer using the -c option and try again
+
+make: *** [avrdudedummy] Error 1
+15:13:07 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+C:\WinAVR-20100110\bin\avrdude -pm644p -u -Uflash:w:WirelessDataLogger.hex:a -Ulfuse:w:0xef:m -Uhfuse:w:0xdf:m -Uefuse:w:0xff:m
+
+avrdude: no programmer has been specified on the command line or the config file
+         Specify a programmer using the -c option and try again
+
+make: *** [avrdudedummy] Error 1
+15:14:19 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Building target: WirelessDataLogger.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WirelessDataLogger.map -mmcu=atmega644p -o "WirelessDataLogger.elf"  ./myAvrlib/a2d.o ./myAvrlib/buffer.o ./myAvrlib/cmdline.o ./myAvrlib/extint.o ./myAvrlib/i2c.o ./myAvrlib/i2ceeprom.o ./myAvrlib/timer.o ./myAvrlib/uart2.o ./myAvrlib/vt100.o  ./common/ShortMessageService.o ./common/battery.o ./common/epoch.o ./common/epromAT24xx.o ./common/i2cMax11645.o ./common/leds.o ./common/measure_adc.o ./common/modem.o ./common/nmea.o ./common/rtc_s35390a.o ./common/satellite.o ./common/testing.o ./common/timer_sys.o ./common/uart1_split.o ./common/uartDbgPrint.o ./common/wireless.o ./common/xE910.o  ./WBRD200-DRAFT/src/wbrd200TestMain.o   
+Finished building target: WirelessDataLogger.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S WirelessDataLogger.elf  >"WirelessDataLogger.lss"
+Finished building: WirelessDataLogger.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex WirelessDataLogger.elf  "WirelessDataLogger.hex"
+Finished building: WirelessDataLogger.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:15:47 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:16:20 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:16:50 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:17:03 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:18:46 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:19:01 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:19:34 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:22:48 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:23:49 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:24:57 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:25:57 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:28:51 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:29:07 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:58:43 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31936 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:27:56 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Building file: ../common/modem.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/modem.d" -MT"common/modem.o" -c -o "common/modem.o" "../common/modem.c"
+Finished building: ../common/modem.c
+ 
+Building target: WirelessDataLogger.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WirelessDataLogger.map -mmcu=atmega644p -o "WirelessDataLogger.elf"  ./myAvrlib/a2d.o ./myAvrlib/buffer.o ./myAvrlib/cmdline.o ./myAvrlib/extint.o ./myAvrlib/i2c.o ./myAvrlib/i2ceeprom.o ./myAvrlib/timer.o ./myAvrlib/uart2.o ./myAvrlib/vt100.o  ./common/ShortMessageService.o ./common/battery.o ./common/epoch.o ./common/epromAT24xx.o ./common/i2cMax11645.o ./common/leds.o ./common/measure_adc.o ./common/modem.o ./common/nmea.o ./common/rtc_s35390a.o ./common/satellite.o ./common/testing.o ./common/timer_sys.o ./common/uart1_split.o ./common/uartDbgPrint.o ./common/wireless.o ./common/xE910.o  ./WBRD200-DRAFT/src/wbrd200TestMain.o   
+Finished building target: WirelessDataLogger.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S WirelessDataLogger.elf  >"WirelessDataLogger.lss"
+Finished building: WirelessDataLogger.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex WirelessDataLogger.elf  "WirelessDataLogger.hex"
+Finished building: WirelessDataLogger.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31942 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:30:11 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31942 bytes (48.7% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+09:33:29 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Building file: ../common/modem.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/modem.d" -MT"common/modem.o" -c -o "common/modem.o" "../common/modem.c"
+Finished building: ../common/modem.c
+ 
+Building target: WirelessDataLogger.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WirelessDataLogger.map -mmcu=atmega644p -o "WirelessDataLogger.elf"  ./myAvrlib/a2d.o ./myAvrlib/buffer.o ./myAvrlib/cmdline.o ./myAvrlib/extint.o ./myAvrlib/i2c.o ./myAvrlib/i2ceeprom.o ./myAvrlib/timer.o ./myAvrlib/uart2.o ./myAvrlib/vt100.o  ./common/ShortMessageService.o ./common/battery.o ./common/epoch.o ./common/epromAT24xx.o ./common/i2cMax11645.o ./common/leds.o ./common/measure_adc.o ./common/modem.o ./common/nmea.o ./common/rtc_s35390a.o ./common/satellite.o ./common/testing.o ./common/timer_sys.o ./common/uart1_split.o ./common/uartDbgPrint.o ./common/wireless.o ./common/xE910.o  ./WBRD200-DRAFT/src/wbrd200TestMain.o   
+Finished building target: WirelessDataLogger.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S WirelessDataLogger.elf  >"WirelessDataLogger.lss"
+Finished building: WirelessDataLogger.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex WirelessDataLogger.elf  "WirelessDataLogger.hex"
+Finished building: WirelessDataLogger.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31980 bytes (48.8% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:50:36 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31980 bytes (48.8% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

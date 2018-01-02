@@ -1,0 +1,20 @@
+13:50:36 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
+AVR Memory Usage
+----------------
+Device: atmega644p
+
+Program:   31980 bytes (48.8% Full)
+(.text + .data + .bootloader)
+
+Data:       1549 bytes (37.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+13:50:39 Build Finished (took 2s.361ms)
+

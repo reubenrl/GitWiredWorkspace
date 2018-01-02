@@ -10,7 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include myAvrlib/subdir.mk
 -include common/subdir.mk
--include WBRD200-VER1/src/subdir.mk
+-include WBRD200-DRAFT/src/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -34,17 +34,12 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
 WirelessDataLogger.lss \
-WirelessDataLogger.lss \
 
 FLASH_IMAGE += \
 WirelessDataLogger.hex \
 
 SIZEDUMMY += \
 sizedummy \
-sizedummy \
-
-AVRDUDEDUMMY += \
-avrdudedummy \
 
 
 # All Target
@@ -76,18 +71,12 @@ sizedummy: WirelessDataLogger.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
-avrdudedummy: WirelessDataLogger.elf
-	@echo 'Invoking: AVRDude'
-	C:\WinAVR-20100110\bin\avrdude -pm644p -cavrispmkII -Pusb -Uflash:w:WirelessDataLogger.hex:a
-	@echo 'Finished building: $@'
-	@echo ' '
-
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(AVRDUDEDUMMY)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) WirelessDataLogger.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) WirelessDataLogger.elf
 	-@echo ' '
 
-secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY) $(AVRDUDEDUMMY)
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)
 
 .PHONY: all clean dependents
 .SECONDARY:

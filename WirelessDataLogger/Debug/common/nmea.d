@@ -1,28 +1,28 @@
 common/nmea.o common/nmea.o: ../common/nmea.c \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\BoardSupport\inc/bsp.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\WBRD200-VER1\src\config/bsp_config.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/global.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/avrlibdefs.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/avrlibtypes.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/wbrd200_IO.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/buffer.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/uartDbgPrint.h \
-  C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/nmea.h
+  D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc/bsp.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config/bsp_config.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/global.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/avrlibdefs.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/avrlibtypes.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\common\include/wbrd200_IO.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/buffer.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\common\include/uartDbgPrint.h \
+  D:\GitWiredWorkspace\WirelessDataLogger\common\include/nmea.h
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\BoardSupport\inc/bsp.h:
+D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc/bsp.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\WBRD200-VER1\src\config/bsp_config.h:
+D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config/bsp_config.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/global.h:
+D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/global.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/avrlibdefs.h:
+D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/avrlibdefs.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/avrlibtypes.h:
+D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/avrlibtypes.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/wbrd200_IO.h:
+D:\GitWiredWorkspace\WirelessDataLogger\common\include/wbrd200_IO.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\myAvrlib\include/buffer.h:
+D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include/buffer.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/uartDbgPrint.h:
+D:\GitWiredWorkspace\WirelessDataLogger\common\include/uartDbgPrint.h:
 
-C:\Users\phytech\Dropbox\eclipse-neon\workspace\atmel\phytologger\WirelessDataLogger\common\include/nmea.h:
+D:\GitWiredWorkspace\WirelessDataLogger\common\include/nmea.h:

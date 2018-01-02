@@ -78,7 +78,7 @@ uint8_t modemPwrOnProc(void)
 	u32BattValue = batteryReadVoltageMeasure();
 	if(u32BattValue > 3220u){
 		if(PINC & (1<<GSM_PWR_MON)){// power monitor is off
-			TXT_DBG("GSM Modem Power is OFF.");
+			TXT_DBG("wait(10sec)...start ignition.");
 			sbi(PORTC, GSM_IGNITION); 	// start ignition pulse low
 			timer_sysDelay_sec(10);
 			cbi(PORTC, GSM_IGNITION);	// end ignition pulse released
@@ -89,7 +89,6 @@ uint8_t modemPwrOnProc(void)
 				}
 			}else powerUp = 1;
 		}else powerUp = 1;
-		TXT_DBG("GSM Modem Power ON.");
 
 	}else{
 #if defined(__DEBUG_GSM_MODEM)
@@ -97,6 +96,9 @@ uint8_t modemPwrOnProc(void)
 #endif
 	}
 	timer_sysDelay_sec(1);
+
+	if(powerUp) TXT_DBG("GSM Modem Power is ON.");
+	else TXT_DBG("GSM Modem Power is OFF.");
 
 	return powerUp;
 }

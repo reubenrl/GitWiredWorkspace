@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
-RepositorySearchDialogSearchPath=C\:\\Users\\phytech\\AppData\\Roaming\\SPB_Data\\git
+GitRepositoriesView.GitDirectories=D\:\\GitWiredWorkspace\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+RepositorySearchDialogSearchPath=D\:\\GitWiredWorkspace
 eclipse.preferences.version=1
