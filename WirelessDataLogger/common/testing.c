@@ -135,7 +135,6 @@ void goCmdline(void)
 	cmdlineInputFunc('\x38');
 	cmdlineInputFunc('\x0D');
 #endif
-
 	// set state to run
 	run = TRUE;
 
@@ -318,7 +317,6 @@ void eeprom_test(void)
 		}
 	}
 
-
 	vt100SetAttr(0);
 	debugON = 0;
 }
@@ -426,10 +424,8 @@ void sleep_test(void)
 
 	BSP_SLEEP_CONFIG();
 
-
 	_delay_ms(500);
 	/// Input/Output Ports initialization for sleep
-
 
    while(1){
 	   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
@@ -474,7 +470,6 @@ void radio_uhf_test(void)
 		(void)batteryVoltage();
 		timer_sysDelay_sec(1UL);
 	}
-
 }
 
 

@@ -486,8 +486,8 @@ Disassembly of section .text:
      832:	45 78 69 74 65 64 20 70 72 6f 67 72 61 6d 21 00     Exited program!.
 
 00000842 <__c.2369>:
-     842:	44 41 54 45 3a 4a 61 6e 20 20 31 20 32 30 31 38     DATE:Jan  1 2018
-     852:	20 20 54 49 4d 45 3a 31 31 3a 35 37 3a 31 34 00       TIME:11:57:14.
+     842:	44 41 54 45 3a 4a 61 6e 20 20 32 20 32 30 31 38     DATE:Jan  2 2018
+     852:	20 20 54 49 4d 45 3a 31 35 3a 35 37 3a 34 37 00       TIME:15:57:47.
 
 00000862 <__c.2367>:
      862:	50 52 4f 47 52 41 4d 20 56 45 52 2d 31 2e 30 2e     PROGRAM VER-1.0.
@@ -14181,9 +14181,9 @@ void  ShutOffADC(void)
     5ad0:	d9 f7       	brne	.-10     	; 0x5ac8 <sleep_test+0x92>
     5ad2:	2c e5       	ldi	r18, 0x5C	; 92
     5ad4:	30 e0       	ldi	r19, 0x00	; 0
+
 	_delay_ms(500);
 	/// Input/Output Ports initialization for sleep
-
 
    while(1){
 	   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
@@ -14438,7 +14438,6 @@ void eeprom_test(void)
     5c4c:	0e 94 96 32 	call	0x652c	; 0x652c <DbgPrintText_P>
 		}
 	}
-
 
 	vt100SetAttr(0);
     5c50:	80 e0       	ldi	r24, 0x00	; 0
@@ -15192,10 +15191,10 @@ void goCmdline(void)
 	cmdlineInputFunc('\r');
     6138:	8d e0       	ldi	r24, 0x0D	; 13
     613a:	0e 94 83 0f 	call	0x1f06	; 0x1f06 <cmdlineInputFunc>
+#if defined (MODEM_BYPASS_UART_ENABLE)  &&  defined(VERIZON_TEST)
 	cmdlineInputFunc('\x38');
 	cmdlineInputFunc('\x0D');
 #endif
-
 	// set state to run
 	run = TRUE;
     613e:	8f ef       	ldi	r24, 0xFF	; 255
@@ -15219,7 +15218,7 @@ void goCmdline(void)
 		// run the cmdline execution functions
 		cmdlineMainLoop();
     615e:	0e 94 26 0e 	call	0x1c4c	; 0x1c4c <cmdlineMainLoop>
-
+#endif
 	// set state to run
 	run = TRUE;
 
