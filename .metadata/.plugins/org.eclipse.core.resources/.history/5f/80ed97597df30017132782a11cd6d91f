@@ -24,7 +24,7 @@
 
 /** \ingroup WBRD200_version
     Library revision number. */
-#define __WBRD200_REVISION__       	2
+#define __WBRD200_REVISION__       	1
 
 #define  __WBRD200_VERSION__		__STRINGLIZERVALUE__(__WBRD200_MAJOR__.__WBRD200_MINOR__.__WBRD200_REVISION__)
 

@@ -1,5 +1,153 @@
-13:50:36 **** Incremental Build of configuration Debug for project WirelessDataLogger ****
+09:43:42 **** Build of configuration Debug for project WirelessDataLogger ****
 make all 
+Building file: ../myAvrlib/a2d.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/a2d.d" -MT"myAvrlib/a2d.o" -c -o "myAvrlib/a2d.o" "../myAvrlib/a2d.c"
+Finished building: ../myAvrlib/a2d.c
+ 
+Building file: ../myAvrlib/buffer.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/buffer.d" -MT"myAvrlib/buffer.o" -c -o "myAvrlib/buffer.o" "../myAvrlib/buffer.c"
+Finished building: ../myAvrlib/buffer.c
+ 
+Building file: ../myAvrlib/cmdline.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/cmdline.d" -MT"myAvrlib/cmdline.o" -c -o "myAvrlib/cmdline.o" "../myAvrlib/cmdline.c"
+Finished building: ../myAvrlib/cmdline.c
+ 
+Building file: ../myAvrlib/extint.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/extint.d" -MT"myAvrlib/extint.o" -c -o "myAvrlib/extint.o" "../myAvrlib/extint.c"
+Finished building: ../myAvrlib/extint.c
+ 
+Building file: ../myAvrlib/i2c.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/i2c.d" -MT"myAvrlib/i2c.o" -c -o "myAvrlib/i2c.o" "../myAvrlib/i2c.c"
+Finished building: ../myAvrlib/i2c.c
+ 
+Building file: ../myAvrlib/i2ceeprom.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/i2ceeprom.d" -MT"myAvrlib/i2ceeprom.o" -c -o "myAvrlib/i2ceeprom.o" "../myAvrlib/i2ceeprom.c"
+Finished building: ../myAvrlib/i2ceeprom.c
+ 
+Building file: ../myAvrlib/timer.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/timer.d" -MT"myAvrlib/timer.o" -c -o "myAvrlib/timer.o" "../myAvrlib/timer.c"
+Finished building: ../myAvrlib/timer.c
+ 
+Building file: ../myAvrlib/uart2.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/uart2.d" -MT"myAvrlib/uart2.o" -c -o "myAvrlib/uart2.o" "../myAvrlib/uart2.c"
+Finished building: ../myAvrlib/uart2.c
+ 
+Building file: ../myAvrlib/vt100.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"myAvrlib/vt100.d" -MT"myAvrlib/vt100.o" -c -o "myAvrlib/vt100.o" "../myAvrlib/vt100.c"
+Finished building: ../myAvrlib/vt100.c
+ 
+Building file: ../common/ShortMessageService.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/ShortMessageService.d" -MT"common/ShortMessageService.o" -c -o "common/ShortMessageService.o" "../common/ShortMessageService.c"
+Finished building: ../common/ShortMessageService.c
+ 
+Building file: ../common/battery.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/battery.d" -MT"common/battery.o" -c -o "common/battery.o" "../common/battery.c"
+Finished building: ../common/battery.c
+ 
+Building file: ../common/epoch.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/epoch.d" -MT"common/epoch.o" -c -o "common/epoch.o" "../common/epoch.c"
+Finished building: ../common/epoch.c
+ 
+Building file: ../common/epromAT24xx.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/epromAT24xx.d" -MT"common/epromAT24xx.o" -c -o "common/epromAT24xx.o" "../common/epromAT24xx.c"
+Finished building: ../common/epromAT24xx.c
+ 
+Building file: ../common/i2cMax11645.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/i2cMax11645.d" -MT"common/i2cMax11645.o" -c -o "common/i2cMax11645.o" "../common/i2cMax11645.c"
+Finished building: ../common/i2cMax11645.c
+ 
+Building file: ../common/leds.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/leds.d" -MT"common/leds.o" -c -o "common/leds.o" "../common/leds.c"
+Finished building: ../common/leds.c
+ 
+Building file: ../common/measure_adc.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/measure_adc.d" -MT"common/measure_adc.o" -c -o "common/measure_adc.o" "../common/measure_adc.c"
+Finished building: ../common/measure_adc.c
+ 
+Building file: ../common/modem.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/modem.d" -MT"common/modem.o" -c -o "common/modem.o" "../common/modem.c"
+Finished building: ../common/modem.c
+ 
+Building file: ../common/nmea.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/nmea.d" -MT"common/nmea.o" -c -o "common/nmea.o" "../common/nmea.c"
+Finished building: ../common/nmea.c
+ 
+Building file: ../common/rtc_s35390a.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/rtc_s35390a.d" -MT"common/rtc_s35390a.o" -c -o "common/rtc_s35390a.o" "../common/rtc_s35390a.c"
+Finished building: ../common/rtc_s35390a.c
+ 
+Building file: ../common/satellite.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/satellite.d" -MT"common/satellite.o" -c -o "common/satellite.o" "../common/satellite.c"
+Finished building: ../common/satellite.c
+ 
+Building file: ../common/testing.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/testing.d" -MT"common/testing.o" -c -o "common/testing.o" "../common/testing.c"
+Finished building: ../common/testing.c
+ 
+Building file: ../common/timer_sys.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/timer_sys.d" -MT"common/timer_sys.o" -c -o "common/timer_sys.o" "../common/timer_sys.c"
+Finished building: ../common/timer_sys.c
+ 
+Building file: ../common/uart1_split.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/uart1_split.d" -MT"common/uart1_split.o" -c -o "common/uart1_split.o" "../common/uart1_split.c"
+Finished building: ../common/uart1_split.c
+ 
+Building file: ../common/uartDbgPrint.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/uartDbgPrint.d" -MT"common/uartDbgPrint.o" -c -o "common/uartDbgPrint.o" "../common/uartDbgPrint.c"
+Finished building: ../common/uartDbgPrint.c
+ 
+Building file: ../common/wireless.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/wireless.d" -MT"common/wireless.o" -c -o "common/wireless.o" "../common/wireless.c"
+Finished building: ../common/wireless.c
+ 
+Building file: ../common/xE910.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"common/xE910.d" -MT"common/xE910.o" -c -o "common/xE910.o" "../common/xE910.c"
+Finished building: ../common/xE910.c
+ 
+Building file: ../WBRD200-DRAFT/src/wbrd200TestMain.c
+Invoking: AVR Compiler
+avr-gcc -I"D:\GitWiredWorkspace\WirelessDataLogger\common\include" -I"D:\GitWiredWorkspace\WirelessDataLogger\WBRD200-VER1\src\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\BoardSupport\inc" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\config" -I"D:\GitWiredWorkspace\WirelessDataLogger\myAvrlib\include" -Wall -g2 -gstabs -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega644p -DF_CPU=3686400UL -MMD -MP -MF"WBRD200-DRAFT/src/wbrd200TestMain.d" -MT"WBRD200-DRAFT/src/wbrd200TestMain.o" -c -o "WBRD200-DRAFT/src/wbrd200TestMain.o" "../WBRD200-DRAFT/src/wbrd200TestMain.c"
+Finished building: ../WBRD200-DRAFT/src/wbrd200TestMain.c
+ 
+Building target: WirelessDataLogger.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,WirelessDataLogger.map -mmcu=atmega644p -o "WirelessDataLogger.elf"  ./myAvrlib/a2d.o ./myAvrlib/buffer.o ./myAvrlib/cmdline.o ./myAvrlib/extint.o ./myAvrlib/i2c.o ./myAvrlib/i2ceeprom.o ./myAvrlib/timer.o ./myAvrlib/uart2.o ./myAvrlib/vt100.o  ./common/ShortMessageService.o ./common/battery.o ./common/epoch.o ./common/epromAT24xx.o ./common/i2cMax11645.o ./common/leds.o ./common/measure_adc.o ./common/modem.o ./common/nmea.o ./common/rtc_s35390a.o ./common/satellite.o ./common/testing.o ./common/timer_sys.o ./common/uart1_split.o ./common/uartDbgPrint.o ./common/wireless.o ./common/xE910.o  ./WBRD200-DRAFT/src/wbrd200TestMain.o   
+Finished building target: WirelessDataLogger.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S WirelessDataLogger.elf  >"WirelessDataLogger.lss"
+Finished building: WirelessDataLogger.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex WirelessDataLogger.elf  "WirelessDataLogger.hex"
+Finished building: WirelessDataLogger.hex
+ 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega644p WirelessDataLogger.elf
 AVR Memory Usage
@@ -16,5 +164,5 @@ Data:       1549 bytes (37.8% Full)
 Finished building: sizedummy
  
 
-13:50:39 Build Finished (took 2s.361ms)
+09:44:05 Build Finished (took 23s.401ms)
 

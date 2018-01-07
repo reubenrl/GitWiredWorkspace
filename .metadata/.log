@@ -4588,3 +4588,82 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 
 !ENTRY org.eclipse.equinox.security 1 0 2018-01-02 14:21:40.564
 !MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-01-02 16:15:57.971
+!MESSAGE An internal error occurred during: "AVR MCU List".
+!STACK 0
+java.lang.NullPointerException
+	at de.innot.avreclipse.core.util.AVRMCUidConverter.name2id(AVRMCUidConverter.java:78)
+	at de.innot.avreclipse.ui.views.supportedmcu.MCUListView$WorkbenchSelectionListener$1.run(MCUListView.java:214)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2018-01-02 16:15:58.057
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-02 16:15:58.057
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog,Prepare Changelog,
+		Prepares Changelog,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@220f6a3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog2,Prepare Changelog In Editor,
+		Prepares ChangeLog in an editor,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f1e8cc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.preparechangelog2,Prepare Changelog In Editor,
+		Prepares ChangeLog in an editor,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f1e8cc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.compare.compareEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-02 16:15:58.057
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.actions.KeyActionCommand,Insert ChangeLog entry,
+		Insert a ChangeLog entry,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fa796a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.linuxtools.changelog.core.actions.KeyActionCommand,Insert ChangeLog entry,
+		Insert a ChangeLog entry,
+		Category(org.eclipse.linuxtools.changelog,Changelog,Changelog key bindings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fa796a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.compare.compareEditorScope,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-01-02 16:15:58.063
+!MESSAGE An internal error occurred during: "AVR Device Explorer".
+!STACK 0
+java.lang.NullPointerException
+	at de.innot.avreclipse.core.util.AVRMCUidConverter.name2id(AVRMCUidConverter.java:78)
+	at de.innot.avreclipse.ui.views.avrdevice.AVRDeviceView$WorkbenchSelectionListener$1.run(AVRDeviceView.java:660)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-01-02 16:27:03.530
+!MESSAGE An internal error occurred during: "AVR MCU List".
+!STACK 0
+java.lang.NullPointerException
+	at de.innot.avreclipse.core.util.AVRMCUidConverter.name2id(AVRMCUidConverter.java:78)
+	at de.innot.avreclipse.ui.views.supportedmcu.MCUListView$WorkbenchSelectionListener$1.run(MCUListView.java:214)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-01-02 16:27:03.538
+!MESSAGE An internal error occurred during: "AVR Device Explorer".
+!STACK 0
+java.lang.NullPointerException
+	at de.innot.avreclipse.core.util.AVRMCUidConverter.name2id(AVRMCUidConverter.java:78)
+	at de.innot.avreclipse.ui.views.avrdevice.AVRDeviceView$WorkbenchSelectionListener$1.run(AVRDeviceView.java:660)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
